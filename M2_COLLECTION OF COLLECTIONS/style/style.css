@@ -14,6 +14,11 @@ body {
   letter-spacing: 0.8px;
   line-height: 1.5em;
 }
+@media screen and (max-width:800px) {
+  body {
+    margin:5px;
+  }
+}
 
 .site-header {
   font-family: 'bn_slabby_boldregular';
@@ -89,12 +94,24 @@ a {
     width:100%;
     margin-bottom: 15px;
   }
+@media screen and (max-width:610px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+}  
+
   .grid-container4 {
     display: inline-grid;
     grid-template-columns: auto auto auto;
     column-gap: 10px;
    /* padding: 10vw;*/
     width:100%;
+  }
+
+  @media screen and (max-width:610px) {
+    .grid-container4 {
+      grid-template-columns: auto;
+    }
   }
 
 
@@ -210,7 +227,8 @@ a {
   .row {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 15vw;
+    margin-top: 10vw;
+    margin-bottom:10vw;
   }
 
   .column {
@@ -312,5 +330,12 @@ a {
 
 #food-calc {
   font-family: 'bn_slabby_boldregular';
+
+}
+
+#instructions {
+  font-family: 'pp_nikkei_journallight_italic';
+  text-align: center;
+  padding-top: 15px;
 
 }
