@@ -1,0 +1,183 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cat Pantry</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css" type="text/css" charset="utf-8" />
+</head>
+
+<body>
+
+<header class="site-header">
+<nav>
+  <ul class="navigation">
+    <li class="navigation-item"><a href="index.html">Cat Pantry</a></li>
+    <li><a href="wet.html">Wet</a></li> 
+    <li><a href="dry.html">Dry</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</nav>
+</header>
+
+<!-------------3--------------->
+
+<div class="grid-container">
+  
+  <!-- ACANA -->
+
+  <div class="grid-item-grid">
+
+      <div class="image-wrapper">
+          <img class="backgroundphoto" src="images/can-acana.png" alt="ACANA" style="width:fit-content; height:250px">
+          <div class="centered">
+              <a href="acana.html" class="hover"></a>
+          </div>
+      </div>
+
+  </div>
+
+  <!-- WERUVA -->
+
+  <div class="grid-item-grid">
+
+      <div class="image-wrapper">
+          <img class="backgroundphoto" src="images/can-weruva.png" alt="WERUVA" style="width:fit-content; height:250px">
+          <div class="centered">
+              <a href="weruva.html" class="hover"></a>
+          </div>
+      </div>
+
+  </div>
+
+  <!-- ALMO NATURE HQS -->
+
+  <div class="grid-item-grid">
+
+      <div class="image-wrapper">
+          <img class="backgroundphoto" src="images/can-almo.png" alt="ALMO NATURE HQS" style="width:fit-content; height:250px">
+          <div class="centered">
+              <a href="almo.html" class="hover"></a>
+          </div>
+      </div>
+
+  </div>
+
+  <!-- THIRD ROW DROPDOWNS -->
+
+  <div class="grid-item2">
+      <div class="dropdown">
+          <button onclick="toggleDropdown('dropdown7')" class="dropbtn">ACANA</button>
+          <div id="dropdown7" class="dropdown-content">
+              <a>Premium Paté Beef Recipe</a>
+              <a>$2.49 CAD ($29.88/case)</a>
+              <a id="nutrition"><strong> CP</strong> 10.5% min |<strong> CFa</strong> 7% min |<strong> CFi</strong> 1% max</a>
+          </div>
+      </div>
+  </div>
+
+  <div class="grid-item2">
+      <div class="dropdown">
+          <button onclick="toggleDropdown('dropdown8')" class="dropbtn">WERUVA b.f.f.</button>
+          <div id="dropdown8" class="dropdown-content">
+              <a>Tuna Too Cool</a>
+              <a>$2.79 CAD ($25.99/case)</a>
+              <a id="nutrition"><strong> CP</strong> 12% min |<strong> CFa</strong> 2% min |<strong> CFi</strong> 0.2% max</a>
+          </div>
+      </div>
+  </div>
+
+  <div class="grid-item2">
+      <div class="dropdown">
+          <button onclick="toggleDropdown('dropdown9')" class="dropbtn">ALMO NATURE HQS</button>
+          <div id="dropdown9" class="dropdown-content">
+              <a>Salmon & Chicken</a>
+              <a>$2.19 CAD ($26.28/case)</a>
+              <a id="nutrition"><strong> CP</strong> 17% min |<strong> CFa</strong> 1% min |<strong> CFi</strong> 1% max |</a>
+          </div>
+      </div>
+  </div>
+
+</div>
+
+<!-------------4--------------->
+
+<div class="grid-container4">
+  
+  <!-- TIKI CAT -->
+  <div class="grid-item-grid">
+
+      <div class="image-wrapper">
+          <img class="backgroundphoto" src="images/can-tiki.png" alt="TIKI" style="width:fit-content; height:250px">
+          <div class="centered">
+              <a href="tiki.html" class="hover"></a>
+          </div>
+      </div>
+
+  </div>
+
+  <!-- FANCY FEAST -->
+  <div class="grid-item-grid">
+
+      <div class="image-wrapper">
+          <img class="backgroundphoto" src="images/can-fancy.png" alt="FANCY" style="width:fit-content; height:250px">
+          <div class="centered">
+              <a href="fancy.html" class="hover"></a>
+          </div>
+      </div>
+
+  </div>
+
+  <!-- WERUVA STEW -->
+  <div class="grid-item-grid">
+
+      <div class="image-wrapper">
+          <img class="backgroundphoto" src="images/can-stew.png" alt="WERUVA STEW" style="width:fit-content; height:250px">
+          <div class="centered">
+              <a href="stew.html" class="hover"></a>
+          </div>
+      </div>
+
+  </div>
+
+  <!-- FOURTH ROW DROPDOWNS -->
+
+  <div class="grid-item2">
+      <div class="dropdown">
+          <button onclick="toggleDropdown('dropdown10')" class="dropbtn">TIKI CAT GRILL</button>
+          <div id="dropdown10" class="dropdown-content">
+              <a>Ahi Tuna</a>
+              <a>$2.29 CAD ($25.99/case)</a>
+              <a id="nutrition"><strong> CP</strong> 16% min |<strong> CFa</strong> 2% min |<strong> CFi</strong> 0.5% max</a>
+          </div>
+      </div>
+  </div>
+
+  <div class="grid-item2">
+      <div class="dropdown">
+          <button onclick="toggleDropdown('dropdown11')" class="dropbtn">FANCY FEAST</button>
+          <div id="dropdown11" class="dropdown-content">
+              <a>Classic Paté</a>
+              <a>$1.19 CAD ($10.77/case)</a>
+              <a id="nutrition"><strong> CP</strong> 10% min |<strong> CFa</strong> 5% min |<strong>CFi</strong> 1.5% max</a>
+          </div>
+      </div>
+  </div>
+
+  <div class="grid-item2">
+      <div class="dropdown">
+          <button onclick="toggleDropdown('dropdown12')" class="dropbtn">WERUVA STEW!</button>
+          <div id="dropdown12" class="dropdown-content">
+              <a>Stewy Lewis Lamb, Chicken & Salmon Dinner</a>
+              <a>$3.57 CAD ($28.72/case)</a>
+              <a id="nutrition"><strong> CP</strong> 7% min |<strong> CFa</strong> 4% min |<strong> CFi</strong> 1% max</a>
+          </div>
+      </div>
+  </div>
+
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

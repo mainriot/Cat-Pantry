@@ -1,0 +1,186 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cat Pantry</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css" type="text/css" charset="utf-8" />
+</head>
+
+<body>
+
+<header class="site-header">
+<nav>
+  <ul class="navigation">
+    <li class="navigation-item"><a href="index.html">Cat Pantry</a></li>
+    <li><a href="wet.html">Wet</a></li> 
+    <li><a href="dry.html">Dry</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</nav>
+</header>
+
+<!-------------1--------------->
+
+<!-- OPEN FARM -->
+
+<div class="grid-container">
+  <div class="grid-item-grid">
+
+    <div class="image-wrapper">
+      <img class="backgroundphoto" src="images/Freeze-Dried2.png" alt="Open Farm Harvest Chicken" style="width:fit-content; height:250px">
+        <div class="centered">
+            <a href="openfarm.html" class="hover"></a>
+        </div>
+    </div>
+
+</div>
+
+
+
+<!-- VITAL ESSENTIALS -->
+
+<div class="grid-item-grid">
+
+  <div class="image-wrapper">
+    <img class="backgroundphoto" src="images/Freeze-Dried5.png" alt="Vital Essentials Rabbit" style="width:fit-content; height:250px">
+      <div class="centered">
+            <a href="vital.html" class="hover"></a>
+      </div>
+  </div>
+
+</div>
+
+<!-- NZ MEOW -->
+
+<div class="grid-item-grid">
+
+  <div class="image-wrapper">
+    <img class="backgroundphoto" src="images/Freeze-Dried.png" alt="New Zealand Green Mussels" style="width:fit-content; height:250px">
+      <div class="centered">
+          <a href="meow.html" class="hover"></a>
+      </div>
+  </div> 
+
+</div>
+
+<!-- FIRST ROW DROPDOWN -->
+
+<div class="grid-item2">
+<div class="dropdown">
+    <button onclick="toggleDropdown('dropdown1')" class="dropbtn">OPEN FARM</button>
+    <div id="dropdown1" class="dropdown-content">
+        <a>Harvest Chicken Recipe</a>
+        <a>$12.99 CAD ($3.70/oz)</a>
+        <a id="nutrition"><strong> CP</strong> 47% min |<strong> CFa</strong> 40% min |<strong> CFi</strong> 5% max</a>
+    </div>
+</div>
+</div>
+
+
+<div class="grid-item2">
+<div class="dropdown">
+    <button onclick="toggleDropdown('dropdown2')" class="dropbtn">VITAL ESSENTIALS</button>
+    <div id="dropdown2" class="dropdown-content">
+        <a>Freeze-Dried Rabbit Bites</a>
+        <a>$12.99 CAD ($3.70/oz)</a>
+        <a id="nutrition"><strong> CP</strong> 47% min |<strong> CFa</strong> 40% min |<strong> CFi</strong> 5% max</a>
+    </div>
+</div>
+</div>
+
+<div class="grid-item2">
+<div class="dropdown">
+    <button onclick="toggleDropdown('dropdown3')" class="dropbtn">NZ MEOW</button>
+    <div id="dropdown3" class="dropdown-content">
+        <a>New Zealand Green Mussels</a>
+        <a>$13.99 CAD ($7.77/oz)</a>
+        <a id="nutrition"><strong> CP</strong> 58% min |<strong> CFa</strong> 9% min |<strong> CFi</strong> 2% max</a>
+    </div>
+</div>
+</div>
+
+</div>
+
+<!-------------2--------------->
+
+<!-- PRIMAL -->
+
+<div class="grid-container">
+<div class="grid-item-grid">
+
+  <div class="image-wrapper">
+    <img class="backgroundphoto" src="images/Freeze-Dried3.png" alt="Primal Nuggets" style="width:fit-content; height:250px">
+      <div class="centered">
+          <a href="primal.html" class="hover"></a>
+      </div>
+  </div>
+
+</div>
+
+<!-- STELLA & CHEWY'S -->
+
+<div class="grid-item-grid">
+
+  <div class="image-wrapper">
+    <img class="backgroundphoto" src="images/Freeze-Dried4.png" alt="Stella & Chewy's Duck Duck Goose" style="width:fit-content; height:250px">
+      <div class="centered">
+          <a href="chewy.html" class="hover"></a>
+      </div>
+  </div>
+
+</div>
+
+<!-- PURE BITES -->
+
+<div class="grid-item-grid">
+<div class="image-wrapper">
+  <img class="backgroundphoto" src="images/Freeze-Dried6.png" alt="Pure Bites Beef Liver" style="width:fit-content; height:250px">
+  <div class="centered">
+    <a href="pure.html" class="hover"></a>
+  </div>
+</div>
+</div>
+
+<!-- SECOND ROW DROPDOWN -->
+
+<div class="grid-item2">
+<div class="dropdown">
+    <button onclick="toggleDropdown('dropdown4')" class="dropbtn">PRIMAL</button>
+    <div id="dropdown4" class="dropdown-content">
+        <a>Freeze-Dried Turkey Formula</a>
+        <a>$18.99 CAD ($3.45/oz)</a>
+        <a id="nutrition"><strong> CP</strong> 57% min |<strong> CFa</strong> 22% min |<strong> CFi</strong> 3% max</a>
+    </div>
+</div>
+</div>
+
+<div class="grid-item2">
+<div class="dropdown">
+    <button onclick="toggleDropdown('dropdown5')" class="dropbtn">STELLA & CHEWY'S</button>
+    <div id="dropdown5" class="dropdown-content">
+        <a>Duck Duck Goose Dinner Morsels</a>
+        <a>$15.39 CAD ($3.70/oz)</a>
+        <a id="nutrition"><strong> CP</strong> 47% min |<strong> CFa</strong> 40% min |<strong> CFi</strong> 5% max</a>
+    </div>
+</div>
+</div>
+
+<div class="grid-item2">
+<div class="dropdown">
+    <button onclick="toggleDropdown('dropdown6')" class="dropbtn">PURE BITES</button>
+    <div id="dropdown6" class="dropdown-content">
+        <a>Pure Beef Liver</a>
+        <a>$8.99 CAD ($4.49/oz)</a>
+        <a id="nutrition"><strong> CP</strong> 64% min |<strong> CFa</strong> 5% min |<strong> CFi</strong> 1% max</a>
+    </div>
+</div>
+</div>
+
+</div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
