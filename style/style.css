@@ -210,7 +210,8 @@ a {
   .row {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 15vw;
+    margin-top: 10vw;
+    margin-bottom:100px;
   }
 
   .column {
@@ -312,5 +313,12 @@ a {
 
 #food-calc {
   font-family: 'bn_slabby_boldregular';
+
+}
+
+#instructions {
+  font-family: 'pp_nikkei_journallight_italic';
+  text-align: right;
+  padding-top: 10px;
 
 }
